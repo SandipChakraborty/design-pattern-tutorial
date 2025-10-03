@@ -1,0 +1,29 @@
+# Gradle files
+.gradle/
+gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar # Don't ignore the wrapper itself
+!gradle/wrapper/gradle-wrapper.properties
+!gradlew
+!gradlew.bat
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# H2 Database Files
+*.h2.db
+*.mv.*
