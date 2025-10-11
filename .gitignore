@@ -6,6 +6,10 @@ gradle-wrapper.jar
 !gradlew
 !gradlew.bat
 
+# VS Code
+.vscode/
+
+
 # IntelliJ IDEA
 .idea/
 *.iml
@@ -27,3 +31,5 @@ Thumbs.db
 # H2 Database Files
 *.h2.db
 *.mv.*
+
+*build/

@@ -1,5 +1,7 @@
 # Design Pattern Tutorial Monorepo
 
+## TODO: Update this
+
 This project is a **multi-module Spring Boot 3 project** demonstrating basic CRUD operations with **Java 21**, **Gradle Kotlin DSL**, **JUnit 5** tests, and H2 in-memory database. It is structured as a **monorepo**.
 
 ## Project Structure
@@ -9,21 +11,16 @@ design-pattern-tutorial/
 │── settings.gradle.kts
 │── build.gradle.kts
 │
-├── customer-service/
+├── abstract-factory-pattern/
 │   ├── build.gradle.kts
-│   └── src/main/java/com/design/pattern/customer/... 
-│
-└── order-service/
-    ├── build.gradle.kts
-    └── src/main/java/com/design/pattern/order/...
+│   └── src/main/java/com/design/pattern/abs/factory/...
 ```
 
 ## Modules
 
-* **customer-service**: CRUD operations for Customer entity
-* **order-service**: CRUD operations for Order entity
+* **abstract-factory-pattern**: CRUD operations for Books entity
 
-Both modules have:
+Modules have:
 
 * REST controllers
 * Spring Data JPA repositories
@@ -47,11 +44,8 @@ Both modules have:
 ### Run individual modules
 
 ```bash
-# Customer Service
-./gradlew :customer-service:bootRun
-
-# Order Service
-./gradlew :order-service:bootRun
+# abstract-factory-pattern Service
+./gradlew :abstract-factory-pattern:bootRun
 ```
 
 ### Run Tests
@@ -59,18 +53,6 @@ Both modules have:
 ```bash
 ./gradlew test
 ```
-
-## Endpoints
-
-### Customer Service
-
-* `GET /customers` → List all customers
-* `POST /customers` → Create a customer
-
-### Order Service
-
-* `GET /orders` → List all orders
-* `POST /orders` → Create an order
 
 ## Notes
 
