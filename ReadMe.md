@@ -1,6 +1,6 @@
 # Design Pattern Tutorial Monorepo
 
-## TODO: Update this
+## Description
 
 This project is a **multi-module Spring Boot 3 project** demonstrating basic CRUD operations with **Java 21**, **Gradle Kotlin DSL**, **JUnit 5** tests, and H2 in-memory database. It is structured as a **monorepo**.
 
@@ -14,6 +14,12 @@ design-pattern-tutorial/
 ├── abstract-factory-pattern/
 │   ├── build.gradle.kts
 │   └── src/main/java/com/design/pattern/abs/factory/...
+│
+├── factory-pattern/
+│   ├── build.gradle.kts
+│   └── src/main/java/com/design/pattern/factory/...
+│
+
 ```
 
 ## Modules

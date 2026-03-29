@@ -31,8 +31,13 @@ subprojects {
 
     // ✅ Dependencies block
     project.dependencies {
+        add("compileOnly", "org.projectlombok:lombok:1.18.30")
+        add("annotationProcessor", "org.projectlombok:lombok:1.18.30")
+
         add("implementation", "org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0")
+
         add("testImplementation", "org.junit.jupiter:junit-jupiter:5.10.3")
+        add("testImplementation", "org.mockito:mockito-core")
         add("testRuntimeOnly", "org.junit.platform:junit-platform-launcher")
     }
 
