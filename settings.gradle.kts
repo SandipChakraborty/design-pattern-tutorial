@@ -10,6 +10,5 @@ include("singleton-pattern")
 // Structural
 include("adapter-pattern")
 include("bridge-pattern")
-
-// Behavioural
+include("composite-pattern")
 
