@@ -11,4 +11,4 @@ include("singleton-pattern")
 include("adapter-pattern")
 include("bridge-pattern")
 include("composite-pattern")
-
+include("decorator-pattern")
