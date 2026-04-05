@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a **multi-module Spring Boot 3 project** demonstrating basic CRUD operations with **Java 21**, **Gradle Kotlin DSL**, **JUnit 5** tests, and H2 in-memory database. It is structured as a **monorepo**.
+This project is a **multi-module Spring Boot project** demonstrating basic CRUD operations with **Java 21**, **Gradle Kotlin DSL**, **JUnit 5** tests, and H2 in-memory database. It is structured as a **monorepo**.
 
 ## Project Structure
 

@@ -33,3 +33,5 @@ Thumbs.db
 *.mv.*
 
 *build/
+
+docs/
