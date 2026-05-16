@@ -1,16 +1,20 @@
 rootProject.name = "design-pattern-tutorial"
 
 // Creational
-include("factory-pattern")
-include("abstract-factory-pattern")
-include("builder-pattern")
-include("prototype-pattern")
-include("singleton-pattern")
+include("creational:factory-pattern")
+include("creational:abstract-factory-pattern")
+include("creational:builder-pattern")
+include("creational:prototype-pattern")
+include("creational:singleton-pattern")
 
 // Structural
-include("adapter-pattern")
-include("bridge-pattern")
-include("composite-pattern")
-include("decorator-pattern")
-include("facade-pattern")
-include("flyweight-pattern")
+include("structural:adapter-pattern")
+include("structural:bridge-pattern")
+include("structural:composite-pattern")
+include("structural:decorator-pattern")
+include("structural:facade-pattern")
+include("structural:flyweight-pattern")
+include("structural:proxy-pattern")
+
+// Behavioral
+include("behavioral:chain-of-responsibility-pattern")
