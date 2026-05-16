@@ -18,3 +18,4 @@ include("structural:proxy-pattern")
 
 // Behavioral
 include("behavioral:chain-of-responsibility-pattern")
+include("behavioral:command-pattern")
